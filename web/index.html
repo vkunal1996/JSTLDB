@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Student Information</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #body
+            {
+                background-image: url("my.jpg");
+            }
+            #mainHeading
+            {
+                font-family: fantasy;
+                font-size: 50px;
+                color: burlywood;
+                border: inset;
+                background-color: brown;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius:20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            #headings
+            {
+                font-family: sans-serif;
+                font-size: 20px;
+                color:black;
+            }
+        </style>
+            
+    </head>
+    <body id="body">
+        <form method="post">
+    <center>
+        <h1 id="mainHeading">Home</h1>
+        <table cellspacing="4" border="1">
+            <tr>
+                <th id="headings" align="left">Options</th>
+                <td align="center"><input type="Submit" value="Insert" formaction="Insert.html" style="width:100px;"></td>
+                <td align="center"><input type="Submit" value="Update" formaction="Update.jsp" style="width:100px;"></td>
+                <td align="center"><input type="submit" value="Delete" formaction="Delete.jsp" style="width:100px;"></td>
+            </tr>
+        </table>
+    </center>
+        </form>
+    </body>
+</html>
